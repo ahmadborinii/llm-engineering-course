@@ -1,47 +1,49 @@
-# AI Sales Brochure Generator
+# 🧠 LLM Engineering: Hands-On Mastery
 
-An automated AI tool designed to analyze company information and generate structured, professional sales brochures using LLMs. Built with Python, managed via `uv`, and designed to integrate with local models (Ollama) and OpenAI APIs.
-
----
-
-## Overview
-
-The **Sales Brochure Generator** extracts relevant business insights from input data (or website content) and produces marketing assets through a pipeline of LLM calls. It demonstrates practical LLM engineering patterns such as structured outputs, prompt chaining, and real-time response streaming.
+This repository tracks my journey, code implementations, and project milestones throughout the 8-week **LLM Engineering** course. The focus of this workspace is moving from foundational model interactions to architecting production-grade AI pipelines and autonomous systems.
 
 ---
 
-## Key Features
+## 🎯 Learning Objectives
 
-- **Local & Cloud LLM Support:** Compatible with local models via Ollama (e.g., Llama 3) as well as OpenAI's Chat Completions API.
-- **Structured Data Extraction:** Uses JSON schemas and Pydantic to ensure reliable and strictly formatted outputs.
-- **Prompt Chaining:** Breaks down complex content generation into sequential, modular LLM tasks.
-- **Real-time Streaming:** Delivers low-latency user experiences by streaming responses token by token.
+- Building practical applications on top of modern Large Language Models.
+- Balancing cloud frontier APIs with local open-source model inference.
+- Optimizing LLM pipelines for latency, cost, and token efficiency.
+- Progressing from simple prompting and scraping to complex Agentic workflows and fine-tuning.
 
 ---
 
 
 
-## Tech Stack & Tooling
+## 🗺️ 8-Week Curriculum & Roadmap
 
-- **Language:** Python 3.11+
-- **Package Management:** [uv](https://github.com/astral-sh/uv)
-- **LLM Backends:** Ollama (Local) / OpenAI API
-- **Libraries:** `openai`, `ollama`, `pydantic`, `python-dotenv`
+
+| Stage      | Module                                     | Focus Area                                                 | Status        |
+| ---------- | ------------------------------------------ | ---------------------------------------------------------- | ------------- |
+| **Week 1** | **Foundations & Local Inference**          | Web data extraction, DOM cleanup, local LLM orchestration  | ✅ Complete    |
+| **Week 2** | Multi-modal Applications & UI              | User-facing interfaces, function calling, structured tools | ⏳ In Progress |
+| **Week 3** | Audio & Transcription Pipelines            | Audio processing, task automation, hybrid model pipelines  | 📅 Planned    |
+| **Week 4** | Code Translation & Generation              | Programmatic reasoning, code synthesis, logic optimization | 📅 Planned    |
+| **Week 5** | Enterprise RAG Systems                     | Knowledge bases, vector search, context retrieval          | 📅 Planned    |
+| **Week 6** | Feature Extraction & Classical Fine-Tuning | Supervised adjustments, downstream task optimization       | 📅 Planned    |
+| **Week 7** | Efficient Fine-Tuning (QLoRA)              | GPU computing, parameter-efficient adaptation              | 📅 Planned    |
+| **Week 8** | Autonomous Multi-Agent AI                  | End-to-end agentic systems, decision loops, tool use       | 📅 Planned    |
+
 
 ---
 
 
 
-## Project Structure
+## 📂 Repository Organization
 
 ```text
-.
-├── src/
-│   └── llms_course/       # Core application source code
-├── .env.example           # Template for environment variables
-├── .gitignore             # Git ignore rules for security and cache
-├── pyproject.toml         # Project dependencies and configuration
-├── uv.lock                # Deterministic dependency lockfile
-└── README.md              # Project documentation
+llm-engineering-course/
+│
+├── week1/                  # Week 1 implementations & experiments
+│   └── *.ipynb
+│
+├── pyproject.toml          # Environment dependencies
+├── uv.lock                 # Dependency lockfile
+└── README.md               # Repository overview & learning log
 ```
 
