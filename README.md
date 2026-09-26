@@ -18,32 +18,17 @@ This repository tracks my journey, code implementations, and project milestones 
 ## 🗺️ 8-Week Curriculum & Roadmap
 
 
-| Stage      | Module                                     | Focus Area                                                 | Status        |
-| ---------- | ------------------------------------------ | ---------------------------------------------------------- | ------------- |
-| **Week 1** | **Foundations & Local Inference**          | Web data extraction, DOM cleanup, local LLM orchestration  | ✅ Complete    |
-| **Week 2** | Multi-modal Applications & UI              | User-facing interfaces, function calling, structured tools | ⏳ In Progress |
-| **Week 3** | Audio & Transcription Pipelines            | Audio processing, task automation, hybrid model pipelines  | 📅 Planned    |
-| **Week 4** | Code Translation & Generation              | Programmatic reasoning, code synthesis, logic optimization | 📅 Planned    |
-| **Week 5** | Enterprise RAG Systems                     | Knowledge bases, vector search, context retrieval          | 📅 Planned    |
-| **Week 6** | Feature Extraction & Classical Fine-Tuning | Supervised adjustments, downstream task optimization       | 📅 Planned    |
-| **Week 7** | Efficient Fine-Tuning (QLoRA)              | GPU computing, parameter-efficient adaptation              | 📅 Planned    |
-| **Week 8** | Autonomous Multi-Agent AI                  | End-to-end agentic systems, decision loops, tool use       | 📅 Planned    |
+| Stage      | Module                                     | Focus Area                                                 | Status     |
+| ---------- | ------------------------------------------ | ---------------------------------------------------------- | ---------- |
+| **Week 1** | **Foundations & Local Inference**          | Web data extraction, DOM cleanup, local LLM orchestration  | ✅ Complete |
+| **Week 2** | Multi-modal Applications & UI              | User-facing interfaces, function calling, structured tools | ✅ Complete |
+| **Week 3** | Audio & Transcription Pipelines            | Audio processing, task automation, hybrid model pipelines  | 📅 Planned |
+| **Week 4** | Code Translation & Generation              | Programmatic reasoning, code synthesis, logic optimization | 📅 Planned |
+| **Week 5** | Enterprise RAG Systems                     | Knowledge bases, vector search, context retrieval          | 📅 Planned |
+| **Week 6** | Feature Extraction & Classical Fine-Tuning | Supervised adjustments, downstream task optimization       | 📅 Planned |
+| **Week 7** | Efficient Fine-Tuning (QLoRA)              | GPU computing, parameter-efficient adaptation              | 📅 Planned |
+| **Week 8** | Autonomous Multi-Agent AI                  | End-to-end agentic systems, decision loops, tool use       | 📅 Planned |
 
 
 ---
-
-
-
-## 📂 Repository Organization
-
-```text
-llm-engineering-course/
-│
-├── week1/                  # Week 1 implementations & experiments
-│   └── *.ipynb
-│
-├── pyproject.toml          # Environment dependencies
-├── uv.lock                 # Dependency lockfile
-└── README.md               # Repository overview & learning log
-```
 
